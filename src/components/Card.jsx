@@ -3,7 +3,7 @@ export default function Card({personaggio}) {
 
     return (
   <div className="col">
-    <div className="card mb-3 shadow-sm bg-dark text-white">
+    <div className="card mb-3 shadow-sm bg-dark text-white h-100">
       <div className="row g-0">
         <div className="col-4">
           <img src={image} alt={name} className="img-fluid rounded-start"/>
